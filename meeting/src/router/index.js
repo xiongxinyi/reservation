@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import HuiYiShi from '../views/HuiYiShi.vue'
+import ShenQingBiao from '../views/ShenQingBiao.vue'
 
 const routes = [
   {
@@ -9,9 +9,9 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/',
-    name: 'huiyishi',
-    component: HuiYiShi
+    path: '/shenqingbiao',
+    name: 'shenqingbiao',
+    component: ShenQingBiao
   },
   {
     path: '/about',
