@@ -1,5 +1,5 @@
 <template>
-  <div class="application">
+  <div id="application">
     <h1>西南物探研究院会议申请表</h1>
     <div class="son">
       <el-form :model="form">
@@ -187,23 +187,23 @@ import { reactive } from 'vue'
 </script>
 
 <style lang="scss">
-.application .el-checkbox.el-checkbox--large {
+#application .el-checkbox.el-checkbox--large {
   height: auto !important;
 }
-.application .el-input__wrapper {
+#application .el-input__wrapper {
   box-shadow: none !important;
 }
-.application .el-input__inner {
+#application .el-input__inner {
   width: 100%;
   font-size: 16px;
   color: black;
 }
-.application header .timeInput .el-input__inner {
+#application header .timeInput .el-input__inner {
   text-align: center;
 }
 </style>
 <style lang="scss" scoped>
-.application {
+#application {
   width: 1000px;
   margin: 0 auto;
   h1 {
