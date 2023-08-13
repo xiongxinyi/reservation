@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ShenQingBiao from '../views/ShenQingBiao.vue'
+import YuYueTu from '../views/YuYueTu.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/shenqingbiao',
     name: 'shenqingbiao',
     component: ShenQingBiao
+  },
+  {
+    path: '/yuyuetu',
+    name: 'yuyuetu',
+    component: YuYueTu
   },
   {
     path: '/about',
