@@ -27,7 +27,7 @@
     "node-sass": "^4.14.1",
     "sass-loader": "^10.1.0"
   },
-  "rules":{
+  "rules": {
     "no-unused-vars": "off"
   }
 }

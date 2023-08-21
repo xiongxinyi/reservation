@@ -4,8 +4,6 @@
     <table>
       <tr>
           <td class="tds"></td>
-          <td>7</td>
-          <td></td>
           <td>8</td>
           <td></td>
           <td>9</td>
@@ -21,6 +19,10 @@
           <td>14</td>
           <td></td>
           <td>15</td>
+          <td></td>
+          <td>16</td>
+          <td></td>
+          <td>17</td>
           <td></td>
       </tr>
       <tr>
@@ -45,9 +47,13 @@
           <td></td>
           <td></td>
           <td></td>
+          <td></td>
+          <td></td>
       </tr>
       <tr>
           <td class="tds">会议室2</td>
+          <td></td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -88,9 +94,13 @@
           <td></td>
           <td></td>
           <td></td>
+          <td></td>
+          <td></td>
       </tr>
       <tr>
           <td class="tds">会议室4</td>
+          <td></td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -130,6 +140,8 @@
           <td></td>
           <td></td>
           <td></td>
+          <td></td>
+          <td></td>
       </tr>
     </table>
   </div>
@@ -137,11 +149,7 @@
 
 <script setup>
 import { reactive } from 'vue'
-  let form = reactive({
-  short: '',
-})
 </script>
-
 
 <style lang="scss" scoped>
   #MeetingRoom {
@@ -160,29 +168,29 @@ import { reactive } from 'vue'
       font-size: 24px;
     }
     td {
-      width: 5%;
+      width: 4%;
     }
     .tds {
-      width: 10%;
+      width: 6%;
       text-align: left;
     }
     .room {
-      width: 19%;
+      width: 17.5%;
       position: absolute;
       background: linear-gradient(to left,#F67C29,#F67C29);
       color: white;
       top: 29%;
-      left: 20.5%;
+      left: 21.5%;
       height: 55px;
       line-height: 55px;
       font-size: 24px;
     }
     .second {
-      width: 14%;
-      left: 45.5%;
+      width: 13%;
+      left: 72.5%;
     }
     .third {
-      width: 34%;
+      width: 27%;
       top: 58%;
     }
   }
