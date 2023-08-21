@@ -1,165 +1,137 @@
 <template>
-  <div id="appointment">
+  <div id="MeetingRoom">
     <h1>会议室预约图</h1>
-    <div class="son">
-      <el-form :model="form">
-        <table class="tables">
-          <tr>
-            <td class="long"><span class="middle"> </span></td>
-            <td class="short">8</td>
-            <td class="short"> </td>
-            <td class="short">9</td>
-            <td class="short"> </td>
-            <td class="short">10</td>
-            <td class="short"> </td>
-            <td class="short">11</td>
-            <td class="short"> </td>
-            <td class="short">12</td>
-            <td class="short"> </td>
-            <td class="short">13</td>
-            <td class="short"> </td>
-            <td class="short">14</td>
-            <td class="short"> </td>
-            <td class="short">15</td>
-            <td class="short"> </td>
-            <td class="short">16</td>
-            <td class="short"> </td>
-            <td class="short">17</td>
-            <td class="short"> </td>
-            <td class="short">18</td>
-            <td class="short"> </td>
-          </tr>
-          <tr class="height">
-            <td class="long"><span class="middle">会议室1</span></td>
-            <!-- <td class="short4">
-                xx项目质控会
-            </td> -->
-            <td class="short">8</td>
-            <td class="short"> </td>
-            <td class="short">9</td>
-            <td class="short"> </td>
-            <td class="short">10</td>
-            <td class="short"> </td>
-            <td class="short">11</td>
-            <td class="short"> </td>
-            <td class="short">12</td>
-            <td class="short"> </td>
-            <td class="short">13</td>
-            <td class="short"> </td>
-            <td class="short">14</td>
-            <td class="short"> </td>
-            <td class="short">15</td>
-            <td class="short"> </td>
-            <td class="short">16</td>
-            <td class="short"> </td>
-            <td class="short">17</td>
-            <td class="short"> </td>
-            <td class="short">18</td>
-            <td class="short"> </td>
-          </tr>
-          <tr class="height">
-            <td class="long"><span class="middle">会议室2</span></td>
-            <td class="short">8</td>
-            <td class="short"> </td>
-            <td class="short">9</td>
-            <td class="short"> </td>
-            <td class="short">10</td>
-            <td class="short"> </td>
-            <td class="short">11</td>
-            <td class="short"> </td>
-            <td class="short">12</td>
-            <td class="short"> </td>
-            <td class="short">13</td>
-            <td class="short"> </td>
-            <td class="short">14</td>
-            <td class="short"> </td>
-            <td class="short">15</td>
-            <td class="short"> </td>
-            <td class="short">16</td>
-            <td class="short"> </td>
-            <td class="short">17</td>
-            <td class="short"> </td>
-            <td class="short">18</td>
-            <td class="short"> </td>
-          </tr>
-          <tr class="height">
-            <td class="long"><span class="middle">会议室3</span></td>
-            <td class="short">8</td>
-            <td class="short"> </td>
-            <td class="short">9</td>
-            <td class="short"> </td>
-            <td class="short">10</td>
-            <td class="short"> </td>
-            <td class="short">11</td>
-            <td class="short"> </td>
-            <td class="short">12</td>
-            <td class="short"> </td>
-            <td class="short">13</td>
-            <td class="short"> </td>
-            <td class="short">14</td>
-            <td class="short"> </td>
-            <td class="short">15</td>
-            <td class="short"> </td>
-            <td class="short">16</td>
-            <td class="short"> </td>
-            <td class="short">17</td>
-            <td class="short"> </td>
-            <td class="short">18</td>
-            <td class="short"> </td>
-          </tr>
-          <tr class="height">
-            <td class="long"><span class="middle">会议室4</span></td>
-            <td class="short">8</td>
-            <td class="short"> </td>
-            <td class="short">9</td>
-            <td class="short"> </td>
-            <td class="short">10</td>
-            <td class="short"> </td>
-            <td class="short">11</td>
-            <td class="short"> </td>
-            <td class="short">12</td>
-            <td class="short"> </td>
-            <td class="short">13</td>
-            <td class="short"> </td>
-            <td class="short">14</td>
-            <td class="short"> </td>
-            <td class="short">15</td>
-            <td class="short"> </td>
-            <td class="short">16</td>
-            <td class="short"> </td>
-            <td class="short">17</td>
-            <td class="short"> </td>
-            <td class="short">18</td>
-            <td class="short"> </td>
-          </tr>
-          <tr class="height">
-            <td class="long"><span class="middle">会议室5</span></td>
-            <td class="short">8</td>
-            <td class="short"> </td>
-            <td class="short">9</td>
-            <td class="short"> </td>
-            <td class="short">10</td>
-            <td class="short"> </td>
-            <td class="short">11</td>
-            <td class="short"> </td>
-            <td class="short">12</td>
-            <td class="short"> </td>
-            <td class="short">13</td>
-            <td class="short"> </td>
-            <td class="short">14</td>
-            <td class="short"> </td>
-            <td class="short">15</td>
-            <td class="short"> </td>
-            <td class="short">16</td>
-            <td class="short"> </td>
-            <td class="short">17</td>
-            <td class="short"> </td>
-            <td class="short">18</td>
-            <td class="short"> </td>
-          </tr>
-        </table>
-      </el-form>
-    </div>
+    <table>
+      <tr>
+          <td class="tds"></td>
+          <td>7</td>
+          <td></td>
+          <td>8</td>
+          <td></td>
+          <td>9</td>
+          <td></td>
+          <td>10</td>
+          <td></td>
+          <td>11</td>
+          <td></td>
+          <td>12</td>
+          <td></td>
+          <td>13</td>
+          <td></td>
+          <td>14</td>
+          <td></td>
+          <td>15</td>
+          <td></td>
+      </tr>
+      <tr>
+        <span class="room">xxx项目质控会</span>
+        <span class="room second">xxx交流会</span>
+          <td class="tds">会议室1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td class="tds">会议室2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+        <span class="room third">xxx支部学习会</span>
+          <td class="tds">会议室3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td class="tds">会议室4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td class="tds">会议室5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+    </table>
   </div>
 </template>
 
@@ -170,107 +142,48 @@ import { reactive } from 'vue'
 })
 </script>
 
-<style lang="scss">
-#appointment .el-checkbox.el-checkbox--large {
-  height: auto !important;
-}
-#appointment .el-input__wrapper {
-  box-shadow: none !important;
-}
-#appointment .el-input__inner {
-  width: 100%;
-  font-size: 16px;
-  color: black;
-}
-#appointment header .timeInput .el-input__inner {
-  text-align: center;
-}
-</style>
+
 <style lang="scss" scoped>
-#appointment {
-  width: 1800px;
-  margin: 0 auto;
-  h1 {
+  #MeetingRoom {
     text-align: center;
-    font-size: 30px;
-  }
-  .son {
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 30px;
-      p {
-        width: 45%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        .width {
-          display: inline-block;
-          width: 180px;
-        }
-        .time {
-          display: inline-block;
-          width: 80px;
-        }
-      }
-      .timeInput {
-        .el-input {
-          width: 80px;
-        }
-      }
-    }
+    width: 1800px;
+    margin: 0 auto;
+    position: relative;
     table {
       width: 100%;
     }
-    table,
-    tr,
-    td {
+    table,tr,td {
       border: 1px solid black;
       border-collapse: collapse;
       padding: 10px;
-      text-align: center;
+      height: 50px;
+      font-size: 24px;
     }
-    .center {
-      text-align: center;
-    }
-    .height {
-      height: 100px;
-    }
-    .margin {
-      margin: 0;
-    }
-    .long {
+    td {
       width: 5%;
     }
-    .short {
-      width: 4%;
+    .tds {
+      width: 10%;
+      text-align: left;
     }
-    .short4 {
-      width: 16%;
-      background-color: coral;
+    .room {
+      width: 19%;
+      position: absolute;
+      background: linear-gradient(to left,#F67C29,#F67C29);
+      color: white;
+      top: 29%;
+      left: 20.5%;
+      height: 55px;
+      line-height: 55px;
+      font-size: 24px;
     }
-    .height {
-      height: 60px;
+    .second {
+      width: 14%;
+      left: 45.5%;
     }
-    .tables tr {
-      height: 80px;
-    }
-    .marginLeft {
-      margin-left: 20px;
-    }
-    .border {
-      border-bottom: 0.1px solid white;
-    }
-    .borderNone {
-      border-top: 0.1px solid white;
-    }
-    .borderRight {
-      border-right: 0;
-    }
-    .middle {
-      margin-top: 10px;
+    .third {
+      width: 34%;
+      top: 58%;
     }
   }
-}
 </style>

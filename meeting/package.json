@@ -26,5 +26,8 @@
     "eslint-plugin-vue": "^8.0.3",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.1.0"
+  },
+  "rules":{
+    "no-unused-vars": "off"
   }
 }
