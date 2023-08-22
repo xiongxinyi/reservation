@@ -1,6 +1,6 @@
 <template>
   <div id="MeetingRoom">
-    <h1>会议室预约图</h1>
+    <h1>{{ date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDate() + '日' }}会议室预约图</h1>
     <table>
       <tr>
           <td class="tds"></td>
@@ -148,7 +148,8 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
+import { reactive,ref } from 'vue'
+const date = ref(new Date())
 </script>
 
 <style lang="scss" scoped>
